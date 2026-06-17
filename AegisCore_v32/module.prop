@@ -1,0 +1,6 @@
+id=aegis_core_v32
+name=AegisCore V32.0 "Sentinel" (Stabilitas Merge)
+version=v32.0
+versionCode=32000
+author=AegisDevLabs
+description=Full Brain Core V32 (V31+V32 merge) + EMS Flow v2.2. Audio HAL protection, biometric BIG-pin, FP respawn detection, schedtune maintenance. Star2lte / Exynos 9810 / Chimera Mk7.

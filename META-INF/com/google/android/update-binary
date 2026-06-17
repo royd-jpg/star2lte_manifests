@@ -1,0 +1,3 @@
+#!/sbin/sh
+SKIPUNZIP=0
+. "$MODPATH/customize.sh"

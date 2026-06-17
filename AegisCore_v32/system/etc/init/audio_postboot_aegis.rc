@@ -1,0 +1,6 @@
+# AegisCore V32.0 — audio_postboot_aegis.rc
+# Extends ALSA wait to 20s. No killall. Brain Core V32 handles recovery.
+on property:sys.boot_completed=1
+    wait /dev/snd/controlC0 20
+    exec - root -- /system/bin/sh -c \
+        "[ \"$(getprop init.svc.audioserver)\" != \"running\" ] && restart audioserver || true"
