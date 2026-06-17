@@ -1,0 +1,379 @@
+Welcome to Termux
+
+Docs:       https://doc.termux.com
+Community:  https://community.termux.com
+
+Working with packages:
+ - Search:  pkg search <query>
+ - Install: pkg install <package>
+ - Upgrade: pkg upgrade
+
+Report issues at https://bugs.termux.com
+~ $ su
+etprop init.svc.audioserver                                     <
+grep -i device
+
+dumpsys audio | grep -i bluetoothrunning
+etprop init.svc.vendor.audio-hal                                <
+running
+:/data/data/com.termux/files/home #
+umpsys media.audio_policy | grep -i device                      <
+ Available output devices (2):
+  1. Port ID: 2; "Earpiece"; {AUDIO_DEVICE_OUT_EARPIECE, @:}
+  2. Port ID: 3; "Speaker"; {AUDIO_DEVICE_OUT_SPEAKER, @:}
+ Available input devices (3):
+  1. Port ID: 8; "Built-In Mic"; {AUDIO_DEVICE_IN_BUILTIN_MIC, @:b
+ottom}
+  2. Port ID: 9; "Voice Call Mic"; {AUDIO_DEVICE_IN_TELEPHONY_RX, 
+@:}
+  3. Port ID: 11; "Remote Submix In"; {AUDIO_DEVICE_IN_REMOTE_SUBM
+IX, @:0}
+       - Supported devices (7):
+        1. Port ID: 2; "Earpiece"; {AUDIO_DEVICE_OUT_EARPIECE, @:}
+        2. Port ID: 3; "Speaker"; {AUDIO_DEVICE_OUT_SPEAKER, @:}
+        3. "Wired Headset"; {AUDIO_DEVICE_OUT_WIRED_HEADSET, @:}
+        4. "Wired Headphone"; {AUDIO_DEVICE_OUT_WIRED_HEADPHONE, @
+:}
+        5. "Bt Sco"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO, @:}
+        6. "Bt Sco Headset"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADS
+ET, @:}
+        7. "Bt Sco Car Kit"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKI
+T, @:}
+       - Supported devices (7):
+        1. Port ID: 2; "Earpiece"; {AUDIO_DEVICE_OUT_EARPIECE, @:}
+        2. Port ID: 3; "Speaker"; {AUDIO_DEVICE_OUT_SPEAKER, @:}
+        3. "Wired Headset"; {AUDIO_DEVICE_OUT_WIRED_HEADSET, @:}
+        4. "Wired Headphone"; {AUDIO_DEVICE_OUT_WIRED_HEADPHONE, @
+:}
+        5. "Bt Sco"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO, @:}
+        6. "Bt Sco Headset"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADS
+ET, @:}
+        7. "Bt Sco Car Kit"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKI
+T, @:}
+       - Supported devices (1):
+        1. "Aux Device Out"; {AUDIO_DEVICE_OUT_HDMI, @:}
+       - Supported devices (6):
+        1. Port ID: 8; "Built-In Mic"; {AUDIO_DEVICE_IN_BUILTIN_MI
+C, @:bottom}
+        2. "Bt Sco Headset Mic"; {AUDIO_DEVICE_IN_BLUETOOTH_SCO_HE
+ADSET, @:}
+        3. "Wired Headset Mic"; {AUDIO_DEVICE_IN_WIRED_HEADSET, @:
+}
+        4. "Aux Device In"; {AUDIO_DEVICE_IN_HDMI, @:}
+        5. Port ID: 9; "Voice Call Mic"; {AUDIO_DEVICE_IN_TELEPHON
+Y_RX, @:}
+        6. "FM Mic"; {AUDIO_DEVICE_IN_FM_TUNER, @:}
+   - Declared devices (15):
+    1. Port ID: 2; "Earpiece"; {AUDIO_DEVICE_OUT_EARPIECE, @:}
+    2. Port ID: 3; "Speaker"; {AUDIO_DEVICE_OUT_SPEAKER, @:}
+    3. "Wired Headset"; {AUDIO_DEVICE_OUT_WIRED_HEADSET, @:}
+    4. "Wired Headphone"; {AUDIO_DEVICE_OUT_WIRED_HEADPHONE, @:}
+    5. "Bt Sco"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO, @:}
+    6. "Bt Sco Headset"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET, 
+@:}
+    7. "Bt Sco Car Kit"; {AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT, @
+:}
+    8. "Aux Device Out"; {AUDIO_DEVICE_OUT_HDMI, @:}
+    9. Port ID: 8; "Built-In Mic"; {AUDIO_DEVICE_IN_BUILTIN_MIC, @
+:bottom}
+    10. "Bt Sco Headset Mic"; {AUDIO_DEVICE_IN_BLUETOOTH_SCO_HEADS
+ET, @:}
+    11. "Wired Headset Mic"; {AUDIO_DEVICE_IN_WIRED_HEADSET, @:}
+    12. "Aux Device In"; {AUDIO_DEVICE_IN_HDMI, @:}
+    13. Port ID: 9; "Voice Call Mic"; {AUDIO_DEVICE_IN_TELEPHONY_R
+X, @:}
+    14. "Built-In Back Mic"; {AUDIO_DEVICE_IN_BACK_MIC, @:back}
+    15. "FM Mic"; {AUDIO_DEVICE_IN_FM_TUNER, @:}
+      8. Mix; Sink: "Aux Device Out"
+         Sources: "Built-In Mic", "Wired Headset Mic", "Bt Sco Hea
+dset Mic", "Aux Device In", "Voice Call Mic", "FM Mic"
+       - Supported devices (3):
+        1. "BT A2DP Out"; {AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, @:}
+        2. "BT A2DP Headphones"; {AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_
+HEADPHONES, @:}
+        3. "BT A2DP Speaker"; {AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPE
+AKER, @:}
+       - Supported devices (1):
+        1. "BT Hearing Aid Out"; {AUDIO_DEVICE_OUT_HEARING_AID, @:
+}
+   - Declared devices (4):
+    1. "BT A2DP Out"; {AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, @:}
+    2. "BT A2DP Headphones"; {AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEAD
+PHONES, @:}
+    3. "BT A2DP Speaker"; {AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER
+, @:}
+    4. "BT Hearing Aid Out"; {AUDIO_DEVICE_OUT_HEARING_AID, @:}
+       - Supported devices (1):
+        1. "USB Host Out"; {AUDIO_DEVICE_OUT_USB_ACCESSORY, @:}
+      2. "usb_device output"; 0x0000 (AUDIO_OUTPUT_FLAG_NONE)
+       - Supported devices (3):
+        1. "USB DGTL Dock Out"; {AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSE
+T, @:}
+        2. "USB Device Out"; {AUDIO_DEVICE_OUT_USB_DEVICE, @:}
+        3. "USB Headset Out"; {AUDIO_DEVICE_OUT_USB_HEADSET, @:}
+      1. "usb_device input"; 0x0000 (AUDIO_INPUT_FLAG_NONE)
+       - Supported devices (2):
+        1. "USB Device In"; {AUDIO_DEVICE_IN_USB_DEVICE, @:}
+        2. "USB Headset In"; {AUDIO_DEVICE_IN_USB_HEADSET, @:}
+   - Declared devices (6):
+    1. "USB DGTL Dock Out"; {AUDIO_DEVICE_OUT_DGTL_DOCK_HEADSET, @
+:}
+    2. "USB Host Out"; {AUDIO_DEVICE_OUT_USB_ACCESSORY, @:}
+    3. "USB Device Out"; {AUDIO_DEVICE_OUT_USB_DEVICE, @:}
+    4. "USB Headset Out"; {AUDIO_DEVICE_OUT_USB_HEADSET, @:}
+    5. "USB Device In"; {AUDIO_DEVICE_IN_USB_DEVICE, @:}
+    6. "USB Headset In"; {AUDIO_DEVICE_IN_USB_HEADSET, @:}
+         Sources: "usb_device output"
+      3. Mix; Sink: "USB Device Out"
+         Sources: "usb_device output"
+         Sources: "usb_device output"
+      5. Mix; Sink: "usb_device input"
+         Sources: "USB Device In", "USB Headset In"
+       - Supported devices (1):
+        1. "Remote Submix Out"; {AUDIO_DEVICE_OUT_REMOTE_SUBMIX, @
+:0}
+       - Supported devices (1):
+        1. Port ID: 11; "Remote Submix In"; {AUDIO_DEVICE_IN_REMOT
+E_SUBMIX, @:0}
+   - Declared devices (2):
+    1. "Remote Submix Out"; {AUDIO_DEVICE_OUT_REMOTE_SUBMIX, @:0}
+    2. Port ID: 11; "Remote Submix In"; {AUDIO_DEVICE_IN_REMOTE_SU
+BMIX, @:0}
+     Devices: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+     Devices: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+     [sink 1] Device Port ID: 3; {AUDIO_DEVICE_OUT_SPEAKER, @:}
+     [sink 1] Device Port ID: 3; {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_EARPIECE, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {AUDIO_DEVICE_OUT_SPEAKER, @:}
+      Selected Device: {Empty device types, @:}
+  Device role per product strategy dump:
+  Device role per capture preset dump:
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  0, -4200),  ( 33, -2800),  (
+ 66, -1400),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  0, -2400),  ( 33, -1600),  (
+ 66,  -800),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  0, -2700),  ( 33, -1800),  
+( 66,  -900),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  1, -3000),  ( 33, -2600),  (
+ 66, -2200),  (100, -1800) }
+       DEVICE_CATEGORY_SPEAKER : { (  1, -5100),  ( 57, -2800),  (
+ 71, -2500),  ( 85, -2300),  (100, -2100) }
+       DEVICE_CATEGORY_EARPIECE : { (  1, -2400),  ( 33, -1800),  
+( 66, -1200),  (100,  -600) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -2100),  (100, -1000) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  1, -4950),  ( 33, -3350),  (
+ 66, -1700),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  1, -5800),  ( 20, -4000),  (
+ 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  1, -4950),  ( 33, -3350),  
+( 66, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -2100),  (100, -1000) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  1, -5800),  ( 20, -4000),  (
+ 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  1, -5800),  ( 20, -4000),  (
+ 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  1, -5800),  ( 20, -4000),  
+( 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  0, -4950),  ( 33, -3350),  (
+ 66, -1700),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  0, -5800),  ( 20, -4000),  (
+ 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  0, -4950),  ( 33, -3350),  
+( 66, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  0, -5800),  ( 20, -4000), 
+ ( 60, -2100),  (100, -1000) }
+       DEVICE_CATEGORY_HEARING_AID : { (  0, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  1, -4950),  ( 33, -3350),  (
+ 66, -1700),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  1, -4680),  ( 42, -2070),  (
+ 85,  -540),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  1, -4950),  ( 33, -3350),  
+( 66, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -2100),  (100, -1000) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -4950),  ( 33, -3350)
+,  ( 66, -1700),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  0, -4200),  ( 33, -2800),  (
+ 66, -1400),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  0, -2400),  ( 33, -1600),  (
+ 66,  -800),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  0, -4200),  ( 33, -2800),  
+( 66, -1400),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  1, -3000),  ( 33, -2600),  (
+ 66, -2200),  (100, -1800) }
+       DEVICE_CATEGORY_SPEAKER : { (  1, -3400),  ( 71, -2400),  (
+100, -2000) }
+       DEVICE_CATEGORY_EARPIECE : { (  1, -2400),  ( 33, -1800),  
+( 66, -1200),  (100,  -600) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -2100),  (100, -1000) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  1, -3000),  ( 33, -2600),  (
+ 66, -2200),  (100, -1800) }
+       DEVICE_CATEGORY_SPEAKER : { (  1, -4000),  ( 71, -2400),  (
+100, -1400) }
+       DEVICE_CATEGORY_EARPIECE : { (  1, -2400),  ( 33, -1800),  
+( 66, -1200),  (100,  -600) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -2100),  (100, -1000) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  0, -9600),  (100, -9600) }
+       DEVICE_CATEGORY_SPEAKER : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  0, -9600),  (100, -9600) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  0, -9600),  (100, -9600) }
+       DEVICE_CATEGORY_HEARING_AID : { (  0, -9600),  (100, -9600)
+ }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  0, -5800),  ( 20, -4000),  (
+ 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  0, -5800),  ( 20, -4000),  (
+ 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  0, -5800),  ( 20, -4000),  
+( 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  0, -5800),  ( 20, -4000), 
+ ( 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_HEARING_AID : { (  0, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  1, -5800),  ( 20, -4000),  (
+ 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  1, -5800),  ( 20, -4000),  (
+ 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  1, -5800),  ( 20, -4000),  
+( 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  1, -5800),  ( 20, -4000), 
+ ( 60, -1700),  (100,     0) }
+       DEVICE_CATEGORY_HEARING_AID : { (  1, -12700),  ( 20, -8000
+),  ( 60, -4000),  (100,     0) }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_HEARING_AID : { (  0,     0),  (100,     0)
+ }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_HEARING_AID : { (  0,     0),  (100,     0)
+ }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+      Volume Curves Streams/Attributes, Curve points Streams for d
+evice category (index, attenuation in millibel)
+       DEVICE_CATEGORY_HEADSET : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_SPEAKER : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_EARPIECE : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_EXT_MEDIA : { (  0,     0),  (100,     0) }
+       DEVICE_CATEGORY_HEARING_AID : { (  0,     0),  (100,     0)
+ }
+        Can be muted  Index Min  Index Max  Index Cur [device : in
+dex]...
+Absolute volume devices with driving streams:
+   - device type: 0x20000002, driving stream 4
+   - device type: 0x20000000, driving stream 4
+   - device type: 0x20000001, driving stream 4
+   - device type: 0x8000000, driving stream 4
+   - device type: 0x10, driving stream 1
+Spatializer no supportted on this device
+18 setDeviceAbsoluteVolumeEnabled n=5 ave=0.0703296 std=0.0262129 
+min=0.053653 max=0.116384
+33 getDevicesForAttributes n=16 ave=0.0998686 std=0.0716151 min=0.
+044767 max=0.325959
+:/data/data/com.termux/files/home #
+umpsys audio | grep -i bluetooth                                <
+  mBluetoothName=null
+  pre-scale for bluetooth absolute volume = disabled
+  supportsBluetoothVariableLatency=false
+  isBluetoothVariableLatencyEnabled=true
+  Bluetooth SCO on, requested: false, applied: false
+  Bluetooth A2DP suspended, requested ext: false, requested int: f
+alse, applied false
+  Bluetooth LE Audio suspended, requested ext: false, requested in
+t: false, applied false
+  mBluetoothHeadset: android.bluetooth.BluetoothHeadset@4f0e319
+  mBluetoothHeadsetDevice: null
+  mHearingAid: android.bluetooth.BluetoothHearingAid@c57ec8d
+  mA2dp: android.bluetooth.BluetoothA2dp@b1845bf
+:/data/data/com.termux/files/home #
